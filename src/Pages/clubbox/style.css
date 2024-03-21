@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./Montserrat/static/Montserrat-Regular.ttf);
+}
+p {
+  font-family: "montserrat";
+}
+nav.navbar.navbar-expand-lg {
+  background-color: rgb(179, 117, 117);
+}
+
+.banner-giff {
+  width: 100%;
+}
+.navvar {
+  background-color: #d9d9d9;
+}
+.vibract-img {
+  background-color: black;
+
+  padding: 10% 0%;
+}
+
+.text-vibract {
+  font-size: 80px;
+  margin: 0 20%;
+  font-weight: 700;
+  line-height: 97.52px;
+  background: -webkit-linear-gradient(#f719e1, #f71919);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.connect-sec {
+  padding: 10% 0%;
+  background-color: #f7ee19;
+  border-radius: 50px;
+}
+
+.connect-center {
+  color: #474545;
+  font-weight: 700;
+  line-height: 97.52px;
+  font-size: 80px;
+  margin: 0 5%;
+}
+
+.connect-contain {
+  color: #474545;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 32px;
+  margin: 0 5%;
+}
+
+.connect-offer {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: white;
+}
+
+.offer-sec {
+  background-color: black;
+  padding: 5% 0%;
+}
+.banner-giff {
+  width: 100%;
+}
+
+.gif-sec {
+  background-color: black;
+}
+.connect-sec-next {
+  padding: 10% 0%;
+  border-radius: 36px;
+  
+  background: linear-gradient(135deg, #e9245f 0%, #07a3d4 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.connect-sec-next-2 {
+  padding: 10% 0%;
+  border-radius: 36px;
+
+  background: linear-gradient(128deg, #ef1608 17.23%, #f305f8 100%);
+}
+.connect-sec-next-3 {
+  padding: 10% 0%;
+  border-radius: 36px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(213, 231, 7, 0.76) 0%,
+    #dc6421 49.68%,
+    rgba(239, 58, 112, 0.82) 100%
+  );
+}
+
+.connect-sec-next-4{
+  padding: 10% 0%;
+  border-radius: 36px;
+  
+   
+ 
+  background: linear-gradient(135deg, rgba#D5E707C2 76%, #DC6421 100%, #EF3A70D1 82%);
+}
+
+
+.connect-center-next {
+  color: #fff;
+  line-height: 94%;
+  font-size: 48px;
+  /* font-family: Montserrat; */
+  font-weight: 700;
+}
+
+.navvar .form-control {
+  padding: 5px 21px;
+}
+
+.feed-btn {
+  border-radius: 30px;
+  background: #d9d9d9;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  padding: 10% 0%;
+  line-height: normal;
+  border: none;
+}
+.feed-btn-bottom {
+    
+    background-color: transparent;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    padding: 10% 0%;
+    line-height: normal;
+    border: none;
+  }
+  .bottom-menu{
+    border: 1px solid #E7B609 ;
+    margin-top: 22%;
+  }
+  input.form-control.me-2.border-rounded {
+    border-radius: 24px;
+}
+.feed-btn-active {
+    
+    
+    background: linear-gradient(to right, #15FFD5, #8FA19DFA, #0EA845F5, #3248BCF0, #DF1D1DEB);
+    padding: 1px;
+    border-radius: 30px;
+    
+}
+
+.services-card {
+  border-radius: 15px;
+  border: 1px solid rgba(231, 182, 9, 0.5);
+  background: #d9d9d9;
+  width: 100%;
+  height: 100%;
+}
+.add-chat{
+    background-color: transparent;
+    border: none;
+    
+}
+.create-post .feed-btn-active-1 {
+    
+    
+    background: linear-gradient(to right, #E7B609 );
+    padding: 1px;
+    border-radius: 30px;
+    
+}
+textarea#floatingTextarea2 {
+    border-radius: 15px;
+    border: 1px solid #FFF84B;
+    background: #D9D9D9;
+}
+/* ----------------- */
+.edit-icon{
+    background-color: transparent;
+    border: none;
+    text-align: end;
+}
+.follow-btn{
+    border-radius: 15px;
+border: 1px solid rgba(231, 195, 9, 0.00);
+background: linear-gradient(125deg, #FFD644 0%, rgba(214, 167, 2, 0.00) 100%);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .text-vibract {
+    font-size: 27px;
+
+    line-height: 35.52px;
+  }
+  .navvar .form-control {
+    padding: 3px 16px;
+  }
+
+  .connect-center {
+    line-height: 36.52px;
+    font-size: 28px;
+  }
+  .connect-contain {
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 18px;
+  }
+  .connect-center-next {
+    font-size: 18px;
+  }
+
+  element.style {
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .connect-offer {
+    font-size: 24px;
+    line-height: 43px;
+  }
+
+
+  
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .text-vibract {
+    font-size: 27px;
+
+    line-height: 35.52px;
+  }
+
+  .connect-center {
+    line-height: 36.52px;
+    font-size: 28px;
+  }
+  .connect-contain {
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 18px;
+  }
+  .connect-center-next {
+    font-size: 18px;
+  }
+
+  element.style {
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .connect-offer {
+    font-size: 24px;
+    line-height: 43px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .text-vibract {
+    font-size: 27px;
+
+    line-height: 35.52px;
+  }
+
+  .connect-center {
+    line-height: 36.52px;
+    font-size: 28px;
+  }
+  .connect-contain {
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 18px;
+  }
+  .connect-center-next {
+    font-size: 22px;
+  }
+
+  element.style {
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .connect-offer {
+    font-size: 24px;
+    line-height: 43px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)   {
+  .services-text {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .subtitle-card {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .feed-btn {
+     
+    padding: 2% 0%;
+     
+}
+.follow-btn {
+     
+    padding: 1% 2%;
+}
+.horizontal-scroll-container {
+  
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap; /* Optional: Prevent line breaks inside the container */
+}
+
+.horizontal-scroll-item {
+  display: inline-block;
+  width: 200px; /* Set the width of each item as needed */
+  white-space: normal; /* Optional: Reset white-space if needed for item content */
+}
+}

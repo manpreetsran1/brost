@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat/static/Montserrat-Regular.ttf);
+}
+p{
+    font-family: "montserrat";
+}
+nav.navbar.navbar-expand-lg {
+    background-color: rgb(179, 117, 117);
+}
+
+.banner-giff{
+    width: 100%;
+}
+.navvar{
+    background-color: black;
+}
+.vibract-img{
+     background-color: black;
+    
+   padding: 10% 0%;
+}
+
+.text-vibract {
+    font-size: 80px;
+     margin: 0 20%;
+    font-weight: 700;
+    line-height: 97.52px;
+    background: -webkit-linear-gradient(#F719E1, #F71919);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.connect-sec{
+    padding: 10% 0%;
+    background-color:#F7EE19 ;
+    border-radius: 50px;
+}
+
+.connect-center{
+    color: #474545;
+    font-weight: 700;
+    line-height: 97.52px;
+    font-size: 80px;
+    margin: 0 5%;
+}
+
+.connect-contain{
+    color: #474545;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 32px;
+    margin: 0 5%;
+}
+
+.connect-offer{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+}
+
+.offer-sec{
+    background-color: black;
+    padding: 5% 0%;
+}
+.banner-giff {
+    width: 75%;
+}
+
+.gif-sec{
+    background-color: black;
+}
+.connect-sec-next{
+    padding: 10% 0%;
+    border-radius: 36px;
+    
+     
+background: linear-gradient(135deg, #E9245F 0%, #07A3D4 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.connect-sec-next-2{
+    padding: 10% 0%;
+    border-radius: 36px;
+    
+     
+    background: linear-gradient(128deg, #EF1608 17.23%, #F305F8 100%);
+}
+.connect-sec-next-3{
+    padding: 10% 0%;
+    border-radius: 36px;
+    
+     
+   
+    background: linear-gradient(135deg, rgba(213, 231, 7, 0.76) 0%, #DC6421 49.68%, rgba(239, 58, 112, 0.82) 100%);
+}
+.connect-sec-next-4{
+    padding: 10% 0%;
+    border-radius: 36px;
+    
+     
+   
+    background: linear-gradient(135deg, rgba#D5E707C2 76%, #DC6421 100%, #EF3A70D1 82%);
+}
+
+
+.connect-center-next{
+    color: #FFF;
+     line-height: 94%;
+font-size: 48px;
+font-family: Montserrat;
+font-weight: 700;
+}
+
+.navvar .form-control{
+    padding: 1px 1px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .text-vibract {
+        font-size: 27px;
+       
+        
+        line-height: 35.52px;
+       
+    }
+    .navvar .form-control{
+        padding: 3px 16px;
+    }
+    
+ 
+.connect-center {
+    
+    
+    line-height: 36.52px;
+    font-size: 28px;
+    
+}
+.connect-contain {
+     
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 18px;
+    
+}
+.connect-center-next {
+   
+    font-size: 18px;
+     
+}
+
+
+.text-center {
+    text-align: center!important;
+}
+.connect-offer {
+    
+    font-size: 24px;
+    line-height: 43px;
+    
+}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width:767px) {
+    .text-vibract {
+        font-size: 27px;
+       
+        
+        line-height: 35.52px;
+       
+    }
+    
+ 
+.connect-center {
+    
+    
+    line-height: 36.52px;
+    font-size: 28px;
+    
+}
+.connect-contain {
+     
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 18px;
+    
+}
+.connect-center-next {
+   
+    font-size: 18px;
+     
+}
+
+
+.text-center {
+    text-align: center!important;
+}
+.connect-offer {
+    
+    font-size: 24px;
+    line-height: 43px;
+    
+}
+}
+
+
+@media only screen and (min-width: 768px)  and (max-width:991px) {
+    .text-vibract {
+        font-size: 27px;
+       
+        
+        line-height: 35.52px;
+       
+    }
+    
+ 
+.connect-center {
+    
+    
+    line-height: 36.52px;
+    font-size: 28px;
+    
+}
+.connect-contain {
+     
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 18px;
+    
+}
+.connect-center-next {
+   
+    font-size: 22px;
+     
+}
+
+
+
+.text-center {
+    text-align: center!important;
+}
+.connect-offer {
+    
+    font-size: 24px;
+    line-height: 43px;
+    
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

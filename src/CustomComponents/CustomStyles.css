@@ -1,0 +1,12 @@
+.image1{
+    background-image: url(../Assets/Images/play_store_bg.png);
+    height:20vh;
+    background-size: 100% 100%;
+    margin-top: 5%;
+}
+
+.footer{
+    background:linear-gradient( to top, rgba(32,11,56,1) 26%, rgba(49,10,93,1) 100%);
+    height:30vh;
+    
+}
